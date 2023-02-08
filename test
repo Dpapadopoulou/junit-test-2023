@@ -1,3 +1,12 @@
+import org.hamcrest.text.IsEqualIgnoringCase;
+
+
 @Test
 public void testStringTransformCapital() {
-StringBuilder instance = new StringBuilder ("DespINa");
+StringBuilder stringbuilder = new StringBuilder ("DespINa");
+ result.append(word.substring(0, 1).toUpperCase());
+      result.append(word.substring(1).toLowerCase());
+      result.append(" ");
+
+assertEquals("String: ", "DespINa");
+}
